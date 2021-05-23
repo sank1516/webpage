@@ -1,0 +1,132 @@
+body{
+margin:0;
+background-color: #aaa;
+}
+#topnav ul {
+  list-style-type: none;
+  margin: 0;
+  
+}
+
+#topnav ul li {
+  display: inline;
+  float:middle;
+  padding-left: 35px;
+}
+
+#topnav{
+	position: absolute;
+	background-color:#333;
+	  overflow: hidden;
+	height:35px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+
+}
+#topnav a{
+	color: #7f7;
+	text-align: center;
+	float: center;
+  padding: 14px 145px;
+  text-decoration: none;
+  font-size: 19px;
+}
+#topnav a:hover{
+	background-color: #ddd;
+  color: black;
+  font-weight: bold;
+}
+
+#about face{
+	position: absolute;
+	top:35px;
+}
+#face1{
+	position: absolute;
+	top:35px;
+	opacity:0;
+}
+#about h1{
+	position: absolute;
+	right:5%;
+	top: 30%
+}
+#about h3{
+	position: absolute;
+	right:5%;
+	top: 40%
+}
+#about button{
+	position: absolute;
+	right:17%;
+	top: 60%
+}
+#insta img{
+	position: absolute;
+	right:20%;
+	top: 50%;
+	height: 40px;
+	width: 40px;
+}
+
+#table table{
+	position:absolute;
+	width :95%;
+	top: 100px;
+	left:10px;
+	right:10px;
+	background-color: #aaa;
+	  opacity: 0.9;
+}
+
+#table table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding:10px;
+}
+#fac{
+	position:absolute;
+	top:35px;
+	width: 100%;
+	height:90%;
+}
+#copm{
+	position: absolute;
+	background-color:#eee;
+	top:55px;
+	width:30%;
+	right:15%;
+	opacity: 0.9;
+}
+
+#copm ul{
+	list-style-type: none;
+	display: table;
+	margin: 0 auto;
+}
+#copm h1{
+	  font-size: 45px;
+
+}
+
+#cop img{
+	position: absolute;
+	top:35px;
+	width:100%;
+	height:700px;
+}
+
+#ski{
+	position: absolute;
+	background-color:#eee;
+	top:25%;
+	width:30%;
+	left:15%;
+	opacity: 0.9;
+}
+#ski h1{
+	  font-size: 65px;
+	  text-align: center;
+}
